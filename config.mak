@@ -42,7 +42,7 @@ OUTPUT = /usr
 # By default source archives are downloaded with wget. curl is also an option.
 
 # DL_CMD = wget -c -O
-DL_CMD = curl -C - -L -o
+DL_CMD = curl -C - -Ls -o
 
 # Something like the following can be used to produce a static-linked
 # toolchain that's deployable to any system with matching arch, using
